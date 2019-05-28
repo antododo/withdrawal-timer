@@ -1,5 +1,7 @@
 # withdrawal-timer
 
+This smart contract is a safe where you can put your ETH, and if something happens to you, someone you trust (allowdAddress) will be able to withdraw the ETH after a certain amount of time.
+
 ## 1. The owner deploys the contract with a certain amount of ETH
 
 ## 2. The allowed address (or the owner) requests a withdraw
