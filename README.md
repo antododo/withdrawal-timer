@@ -14,3 +14,13 @@ The allowed address (or the owner) can withdraw the amount knowing the request i
 - cancel a withdraw request.
 - change the timer (will be effective only for new requests).
 - change the allowed address.
+
+## Feedbacks received
+
+[ ] There is an argument for allowing the existing allowed address to change the allowed address
+[ ] There's also an argument that the owner should be able to withdraw immediately
+[ ] the allowed address could be an argument inside the constructor instead of being hardcoded
+[ ] You could use the Ownable lib from Open Zeppelin instead of having your own stuff
+[ ] You should always work with ETH in units of Wei(the conversion from Eth to Wei can be made from the front-end)
+[ ] I see a few way to reduce gas too (like uint -> uint8 or uint64)
+[ ] public functions could be external too
