@@ -15,7 +15,7 @@ The allowed address (or the owner) can withdraw the amount knowing the request i
 - change the timer (will be effective only for new requests).
 - change the allowed address.
 
-## Feedbacks received
+## Feedback received
 
 - [X] You should always work with ETH in units of Wei(the conversion from Eth to Wei can be made from the front-end)
 - [X] I see a few way to reduce gas too (like uint -> uint8 or uint64)
